@@ -1,0 +1,30 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishmael214/forkify.git"
+  },
+  "author": "Ishmael Bangura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishmael214/forkify/issues"
+  },
+  "homepage": "https://github.com/ishmael214/forkify#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "save-dev": "0.0.1-security",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
